@@ -1,0 +1,26 @@
+:root {
+  --primary: #c5e1a5;
+  --primary-variant: #94af76;
+  --primary-additional: #f8ffd7;
+  --bg-color: #ffffff;
+  --font-primary: #000000;
+  --base-font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--base-font-size);
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 70%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
