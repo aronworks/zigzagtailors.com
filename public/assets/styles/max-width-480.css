@@ -1,0 +1,70 @@
+@media screen and (max-width: 480px) {
+  .container {
+    width: 95%;
+  }
+
+  .hero-surface img {
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  .steps_container {
+    width: 30%;
+  }
+
+  .step-desc {
+    opacity: 1;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .footer-logo {
+    height: 40px;
+  }
+
+  .hero-content h2 {
+    top: 75%;
+    font-size: 1.3rem;
+  }
+
+  .ourservice-item {
+    width: 90%;
+  }
+
+  .steps_container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .title-v2 {
+    margin: 0;
+  }
+
+  .ourservices-wrapper {
+    padding: 40px 0;
+    margin-top: 20px;
+  }
+
+  .fact-holder {
+    width: 100%;
+  }
+
+  .title {
+    text-align: center;
+    margin: 50px 0 30px;
+    font-size: 1.5rem;
+  }
+  .footer-container {
+    margin-top: 20px;
+  }
+
+  .footer-holder {
+    width: 92%;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+    display: block;
+    text-align: center;
+  }
+}

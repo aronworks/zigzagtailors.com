@@ -1,0 +1,27 @@
+@media screen and (max-width: 320px) {
+  .container {
+    width: 100%;
+  }
+
+  .title-v2 {
+    margin: 0px 0 20px;
+  }
+
+  .faq-content {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .faq-container {
+    margin-bottom: 10px;
+    padding: 20px 5px 20px 10px;
+  }
+
+  .faq-answer {
+    margin-left: 10px;
+  }
+
+  .footer-holder {
+    margin-left: 10px;
+  }
+}

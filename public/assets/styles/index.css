@@ -1,0 +1,297 @@
+@import "normalize.css";
+@import "common.css";
+
+.primary {
+  color: var(--primary);
+}
+
+.hero {
+  background-image: url("../images/hero.jpg");
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 150% 200px;
+  border-bottom-right-radius: 150% 200px;
+}
+
+.hero-surface {
+  width: 100%;
+  height: 100%;
+  color: var(--on-secondary);
+}
+
+.hero-surface img {
+  width: 180px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.header-logo {
+  height: 60px;
+  margin-top: 10px;
+}
+
+.hero-content {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* ---------------------------------------------------- */
+.arrow,
+.arrow:before {
+  position: absolute;
+  left: 50%;
+}
+
+.arrow {
+  width: 35px;
+  height: 35px;
+  top: 89%;
+  margin: -20px 0 0 -20px;
+  transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px #fff solid;
+  border-bottom: 2px #fff solid;
+}
+
+.arrow:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px #fff solid;
+  border-bottom: 1px #fff solid;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: arrow;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 1;
+    transform: translate(-8px, -8px);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* ------------------------------------------------- */
+
+.title {
+  text-align: center;
+  margin: 100px 0 70px;
+}
+
+.title-v2 {
+  text-align: center;
+  margin: 0px 0 50px;
+}
+
+.steps_container {
+  text-align: center;
+  width: 25%;
+  height: 300px;
+}
+
+.steps_picture {
+  height: 100px;
+}
+
+.step-desc {
+  line-height: 1.7rem;
+  opacity: 0.6;
+}
+
+.step-number {
+  opacity: 0.6;
+}
+
+.ourservices-wrapper {
+  background-color: aliceblue;
+  padding: 40px 0 90px 0;
+  margin-top: 100px;
+}
+
+.ourservice-item {
+  padding: 40px 10px;
+  margin: 20px 0 20px 0;
+  background: #fff;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.our_services {
+  text-align: center;
+  line-height: 85px;
+  width: 25%;
+  height: 100px;
+  margin: 10px;
+}
+.iconbox-outer {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #f7cbdf;
+  margin: 0 auto;
+}
+
+.iconbox-inner {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #f72585;
+  box-shadow: 0 0 0 8px #f778b2;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.iconbox-inner-orange {
+  background: #ff9f1c;
+  box-shadow: 0 0 0 8px #ffbf69;
+}
+
+.iconbox-outer-orange {
+  background-color: #fbd4a8;
+}
+
+.iconbox-inner-red {
+  background: #ff1654;
+  box-shadow: 0 0 0 8px #ef7383;
+}
+
+.iconbox-outer-red {
+  background: #efc3c9;
+}
+
+.iconbox-inner-voilet {
+  background: #540d6e;
+  box-shadow: 0 0 0 8px #540d6e91;
+}
+
+.iconbox-outer-voilet {
+  background: #540d6e4d;
+}
+
+.iconbox-inner-green {
+  background: #9bc53d;
+  box-shadow: 0 0 0 8px #9bc53dbf;
+}
+
+.iconbox-outer-green {
+  background: #9bc53d73;
+}
+
+.iconbox-inner-gray {
+  background: #495867;
+  box-shadow: 0 0 0 8px #495867c7;
+}
+
+.iconbox-outer-gray {
+  background: #495867a3;
+}
+
+.faq-container {
+  margin-bottom: 10px;
+  padding: 35px 0 35px 35px;
+  border: 2px solid #eee;
+  border-radius: 4px;
+}
+
+.faq-content {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--font-primary);
+}
+
+.faq-answer {
+  margin-left: 25px;
+  opacity: 0.6;
+  margin-bottom: 0px;
+}
+
+.faq-question {
+  outline: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.ourservices-icon {
+  height: 60px;
+}
+
+.fact-wrapper {
+  background-color: var(--secondary);
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.fact-holder {
+  width: 24%;
+  border-radius: 10px;
+  color: var(--on-secondary);
+}
+
+.fact-image {
+  height: 50px;
+}
+
+.fact-image-wrapper {
+  display: inline-block;
+  background-color: var(--secondary-variant);
+  border-radius: 50%;
+  padding: 25px;
+}
+
+.fact-numbers {
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.fact-title {
+  font-size: 1.2rem;
+  opacity: 0.6;
+  margin-top: 8px;
+}
+
+.footer-container {
+  margin-top: 70px;
+  background-color: var(--secondary);
+  color: var(--on-secondary);
+  padding: 50px 0px 20px;
+}
+
+.footer-logo {
+  height: 100px;
+}
+
+.footer-holder {
+  width: 45%;
+}
+
+.footer-icon {
+  height: 20px;
+  margin-right: 20px;
+}
+
+.footer-label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.copyright {
+  margin-top: 35px;
+  border-top: 1px solid #eee;
+}
+
+.copyright a {
+  color: #1a73e8;
+}

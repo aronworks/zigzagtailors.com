@@ -1,0 +1,66 @@
+:root {
+  --base-font-size: 16px;
+  --font-primary: #000000;
+  --primary: #f72585;
+  --secondary: #240046;
+  --on-secondary: #ffffff;
+  --secondary-variant: #5a189a;
+
+  --bg-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--base-font-size);
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 70%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 90%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.text-aligne-center {
+  text-align: center;
+}
+
+.red {
+  color: red;
+}

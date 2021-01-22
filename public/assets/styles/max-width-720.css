@@ -1,0 +1,45 @@
+@media screen and (max-width: 720px) {
+  .container {
+    width: 95%;
+  }
+
+  .hero-surface img {
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 22px;
+  }
+
+  .hero-content {
+    top: 70%;
+  }
+
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+
+  .steps_container {
+    width: 30%;
+  }
+
+  .step-desc {
+    opacity: 0;
+  }
+
+  .footer-logo {
+    height: 70px;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+
+  .ourservice-item {
+    width: 40%;
+  }
+  .ourservices-items-container {
+    justify-content: space-around;
+  }
+}
