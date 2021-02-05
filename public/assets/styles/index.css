@@ -97,7 +97,6 @@
 .steps_container {
   text-align: center;
   width: 25%;
-  height: 300px;
 }
 
 .steps_picture {
@@ -269,7 +268,7 @@
 }
 
 .footer-logo {
-  height: 100px;
+  width: 180px;
 }
 
 .footer-holder {
