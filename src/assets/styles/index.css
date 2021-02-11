@@ -104,12 +104,15 @@
 }
 
 .step-desc {
-  line-height: 1.7rem;
   opacity: 0.6;
+  letter-spacing: 0.5px;
+  line-height: 1.9rem;
+  font-weight: 500;
 }
 
 .step-number {
-  opacity: 0.6;
+  font-weight: 500;
+  color: var(--primary);
 }
 
 .ourservices-wrapper {
@@ -207,9 +210,12 @@
   font-size: 1.2rem;
   font-weight: 800;
   color: var(--font-primary);
+  letter-spacing: 0.5px;
+  line-height: 1.7rem;
 }
 
 .faq-answer {
+  font-weight: 500;
   margin-left: 25px;
   opacity: 0.6;
   margin-bottom: 0px;

@@ -1,11 +1,9 @@
 :root {
-  --base-font-size: 16px;
-  --font-primary: #000000;
+  --font-primary: #222;
   --primary: #f72585;
   --secondary: #240046;
   --on-secondary: #ffffff;
   --secondary-variant: #5a189a;
-
   --bg-color: #ffffff;
 }
 
@@ -14,23 +12,17 @@
 }
 
 html {
-  font-size: var(--base-font-size);
+  font-size: 16px;
 }
 
 body {
-  margin: 0;
   background-color: var(--bg-color);
   font-family: "Lato", sans-serif;
+  color: var(--font-primary);
 }
 
 .container {
   width: 70%;
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
-.container-fluid {
-  width: 90%;
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -44,7 +36,7 @@ a {
   flex-wrap: wrap;
 }
 
-.center {
+.flex-center {
   justify-content: center;
   align-items: center;
 }

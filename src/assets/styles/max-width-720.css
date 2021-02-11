@@ -1,4 +1,7 @@
 @media screen and (max-width: 720px) {
+  html {
+    font-size: 14px;
+  }
   .container {
     width: 95%;
   }
@@ -30,6 +33,7 @@
 
   .step-desc {
     opacity: 0;
+    height: 0;
   }
 
   .title {
@@ -37,16 +41,8 @@
     margin: 50px 0 40px;
   }
 
-  .faq-content {
-    font-size: 1rem;
-  }
-
   .footer-logo {
     width: 160px;
-  }
-
-  .copyright {
-    font-size: 0.8rem;
   }
 
   .ourservice-item {

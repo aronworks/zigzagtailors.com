@@ -16,6 +16,7 @@
     opacity: 0.6;
     width: 90%;
     margin: 0 auto;
+    height: auto;
   }
 
   .footer-logo {
@@ -38,6 +39,7 @@
 
   .title-v2 {
     margin: 0;
+    font-size: 1.8rem;
   }
 
   .ourservices-wrapper {
@@ -56,13 +58,15 @@
 
   .faq-answer {
     margin-left: 10px;
+    font-weight: 500;
   }
 
   .title {
     text-align: center;
     margin: 50px 0 30px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
+
   .footer-container {
     margin-top: 20px;
   }
@@ -72,7 +76,6 @@
   }
 
   .copyright {
-    font-size: 0.8rem;
     display: block;
     text-align: center;
   }
